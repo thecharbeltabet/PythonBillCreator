@@ -1,0 +1,14 @@
+Lazagne 30000
+Labneh 6000
+Sbenegh 5000
+Spaghetti 43000
+Pizza 20000
+Cheese 8000
+Thym 3000
+Zaatar 3000
+Kechek 6000
+Ham&Cheese 8000
+Cocktail 5000
+
+
+Chickenhoneymustard 20000

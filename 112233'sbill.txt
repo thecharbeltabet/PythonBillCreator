@@ -1,0 +1,23 @@
+
+
+
+
+Order ID: 20204797 at 02:33:12: 
+
+Your order has 11 items:
+Zaatar   3,000LBP
+Thym   3,000LBP
+Sbenegh   5,000LBP
+Pizza   20,000LBP
+Lazagne   30,000LBP
+Labneh   6,000LBP
+Kechek   6,000LBP
+Ham&Cheese   8,000LBP
+Cocktail   5,000LBP
+Chickenhoneymustard   20,000LBP
+Cheese   8,000LBP
+
+
+Your total is: 114,000LBP
+
+Your total with the tip is: 225,720LBP

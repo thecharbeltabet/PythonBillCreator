@@ -1,0 +1,16 @@
+
+
+
+
+Order ID: 20203739 at 02:31:42: 
+
+Your order has 4 items:
+Thym   3,000LBP
+Sbenegh   5,000LBP
+Zaatar   3,000LBP
+Cheese   8,000LBP
+
+
+Your total is: 19,000LBP
+
+Your total with the tip is: 19,950LBP

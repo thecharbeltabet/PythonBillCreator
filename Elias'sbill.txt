@@ -1,0 +1,33 @@
+
+
+
+
+Order ID: 20203772 at 02:08:43: 
+
+Your order has 3 items:
+Zaatar   3000.0LBP
+Thym   3000.0LBP
+Spaghetti   43005.0LBP
+
+
+Your total is: 49,005LBP
+
+Your total with the tip is: 98,010LBP
+Each Person has to pay: 16,335.0LBP
+
+
+
+Order ID: 20204815 at 02:11:11: 
+
+Your order has 5 items:
+Cheese   8,000LBP
+Cheesier   20,000LBP
+Cocktail   5,000LBP
+Ham&Cheese   8,000LBP
+Hamburger   10,000LBP
+
+
+Your total is: 51,000LBP
+
+Your total with the tip is: 57,120LBP
+Each Person has to pay: 28,560.0LBP

@@ -1,0 +1,18 @@
+
+
+
+
+Order ID: 20204420 at 10:02:44: 
+
+Your order has 5 items:
+Lazagne   20.0USD
+Pizza   13.33USD
+Labneh   4.0USD
+Kechek   4.0USD
+Ham&Cheese   5.33USD
+
+
+Your total is: 46.66 USD
+
+Your total with the tip is: 51.33 USD
+Each Person has to pay: 25.66 USD

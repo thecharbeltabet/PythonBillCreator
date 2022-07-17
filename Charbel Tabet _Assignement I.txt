@@ -1,0 +1,198 @@
+CSC210 Turtle Assignement 
+
+Exercise 1: 
+
+
+import turtle
+
+background = turtle.Screen()
+background.screensize(400,400)
+background.bgcolor("sky blue")
+
+
+#Initiate a turtle for the trunk
+trunk = turtle.Turtle()
+
+#Place it in its starting position
+trunk.penup()
+trunk.right(90)
+trunk.forward(190)
+
+#Turn the cursor into the trunk itself
+trunk.shape("square")
+trunk.color("brown")
+trunk.shapesize(2,6)
+
+#Initiate a turtle for the tree
+tree = turtle.Turtle()
+tree.color("dark green")
+tree.shape("turtle")
+
+#Place it in its starting position
+tree.penup()
+tree.right(90)
+tree.forward(155)
+tree.left(90)
+
+#Start Drawing
+tree.pendown()
+tree.begin_fill()
+tree.forward(200)
+tree.left(120)
+tree.forward(400)
+tree.left(120)
+tree.forward(400)
+tree.left(120)
+tree.forward(200)
+tree.hideturtle()
+tree.end_fill()
+
+
+
+a) color of the tree / size of the trunk(cursor) / shape of the cursor (ex: turtle)
+
+import turtle
+
+background = turtle.Screen()
+background.screensize(400,400)
+background.bgcolor("sky blue")
+
+
+#Initiate a turtle for the trunk
+trunk = turtle.Turtle()
+
+#Place it in its starting position
+trunk.penup()
+trunk.right(90)
+trunk.forward(190)
+
+h = int(input("Give the trunk a width:"))
+w = int(input("Give the trunk a height:"))
+
+trunk.shape("square")
+trunk.color("brown")
+trunk.shapesize(h,w)
+
+#Initiate a turtle for the tree
+tree = turtle.Turtle()
+color = input("Enter a color for the tree:")
+shape = input("Enter the cursor's shape:")
+tree.color(color)
+tree.shape(shape)
+
+#Place it in its starting position
+tree.penup()
+tree.right(90)
+tree.forward(155)
+tree.left(90)
+
+#Start Drawing
+tree.pendown()
+tree.begin_fill()
+tree.forward(200)
+tree.left(120)
+tree.forward(400)
+tree.left(120)
+tree.forward(400)
+tree.left(120)
+tree.forward(200)
+tree.hideturtle()
+tree.end_fill()
+
+
+
+Exercise 2:
+
+
+import turtle
+
+background = turtle.Screen()
+background.screensize(400,400)
+
+side = int(input("Enter the side of the square:")) #Enter the value of the side
+           
+#Initiate a turtle and give a starting position
+square = turtle.Turtle()
+square.shape("turtle")
+square.penup()
+square.right(180)
+square.forward(50)
+square.right(90)
+square.pendown()
+
+#Square 1
+square.color("green")
+square.pensize(2)
+
+for i in range(0,3):
+        square.forward(side/2)
+        square.left(90)
+        
+square.forward(side/2)
+
+
+#Square 2
+square.color("red")
+square.pensize(3)
+square.begin_fill()
+for i in range(0,3):
+    square.forward(side/2)
+    square.left(90)
+        
+square.forward(side/2)
+square.end_fill()
+
+#Square 3
+square.color("brown")
+square.pensize(4)
+
+
+for i in range(0,3):
+    square.forward(side/2)
+    square.left(90)
+
+square.forward(side/2)
+
+
+#Square 4
+square.color("grey")
+square.pensize(4)
+square.begin_fill()
+
+for i in range(0,3):
+
+    square.forward(side/2)
+    square.left(90)
+
+square.forward(side/2)
+square.end_fill()
+square.hideturtle()
+
+
+Exercise 3:
+
+I added rounds feature!
+
+
+from random import randint
+
+print("Welcome to the guessing game!")
+
+rounds = int(input("How many rounds do you want to play?!: "))
+
+for i in range(1,rounds+1):
+     luckyguess = int(input("Make a guess between 1 and 5: "))
+     if  1<= luckyguess <=5:   
+          print("Round",i)
+          randnum = randint(1,5)
+          if luckyguess == randnum:
+                         print("YEY you guessed it right!!")
+          elif luckyguess < randnum:
+                         print("Your number is smaller!")
+          else:
+                         print("Your number is bigger!!")
+     else:
+           print("You didn't understand: BETWEEN 1 AND 5!!!!! retry you lost a round!")
+           
+
+
